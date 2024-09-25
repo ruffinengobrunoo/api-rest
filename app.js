@@ -2,7 +2,7 @@ const express = require('express')
 const app = express ()
 const port = 4000
 
-// "traduce" los datos ingresados por el usuario desde el front para poderlos usarlos en el back
+// "traduce" los datos ingresados por el usuario desde el front para poder usarlos en el back
 app.use(express.json())
 app.use(express.urlencoded({extended:false})) 
 
